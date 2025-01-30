@@ -1,0 +1,30 @@
+/* Centers the page content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF0000;
+    text-align: center;
+}
+
+/* Styles all buttons */
+button {
+    background-color: #c27126;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+@keyframes backgroundChange {
+    0% { background-color: #ffffff; }
+    50% { background-color: #007BFF; }
+    100% { background-color: #ffffff; }
+}
+
+body {
+    animation: backgroundChange 10s infinite ease-in-out;
+}
