@@ -28,3 +28,56 @@ button:hover {
 body {
     animation: backgroundChange 10s infinite ease-in-out;
 }
+
+/* some ideas for navigation bar*/
+/* Style the Navigation Bar */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(238, 255, 0);
+}
+
+/* Style the Navigation Links */
+.navbar ul li {
+    padding: 10px;
+    position: relative;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+/* Dropdown Content - Initially Hidden */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+/* Dropdown Links */
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Show Dropdown When Hovered */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change Background on Hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
